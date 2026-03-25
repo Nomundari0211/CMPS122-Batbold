@@ -3,7 +3,7 @@ public class financialAid {
     // Properties
     String studentId;
     double aidAmount;
-    String aidType; // e.g., "Grant", "Loan", "Scholarship"
+    String aidType;
 
     // constructor
     public FinancialAid(String studentId, double aidAmount, String aidType) {
