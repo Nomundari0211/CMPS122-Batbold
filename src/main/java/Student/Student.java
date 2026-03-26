@@ -1,8 +1,5 @@
-/**
- * Student class represents a student with basic attributes.
- * This class is designed based on Lab01 requirements:
- * name, age, GPA, and student status.
- */
+package Student;
+
 public class Student {
 
     // Instance variables (attributes of a student)
