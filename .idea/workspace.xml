@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="d6f786da-56ec-4846-b7ff-956f4a25c459" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegistrationManager/RegistrationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistrationManager/RegistrationManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +24,6 @@
     &quot;accountId&quot;: &quot;29e3e91c-af34-4921-815c-ac64fb00fbee&quot;
   }
 }</component>
-  <component name="McpProjectServerCommands">
-    <commands />
-    <urls />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1,
   &quot;fromUser&quot;: false
@@ -46,13 +39,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "rejoy/financialAid",
+    "git-widget-placeholder": "illias/new",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="open FinalProject-CMPS122" />
+      <command value="Student" />
     </option>
   </component>
   <component name="SharedIndexes">
@@ -71,16 +65,5 @@
       <updated>1773969491428</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
