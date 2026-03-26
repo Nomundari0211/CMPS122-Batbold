@@ -17,8 +17,9 @@ public class RegistrationManager {
         this.courseList = courseList;   
     }
 
-    public static void main(String[] args) {
-        System.out.println("this is the RegistrationManager class");
-        
+    public void start() {
+        // Start function 
+        //should guide through what does Student Module do, or help with 
+        System.out.println(">> RegistrationManager Management Module <<");
     }
 }

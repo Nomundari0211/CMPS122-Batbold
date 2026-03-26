@@ -61,4 +61,10 @@ public class EventSystem {
     public void setSystemName(String systemName) {
         this.systemName = systemName;
     }
+
+     public void start() {
+        // Start function 
+        //should guide through what does Student Module do, or help with 
+        System.out.println(">> EventSystem Management Module <<");
+    }
 }
