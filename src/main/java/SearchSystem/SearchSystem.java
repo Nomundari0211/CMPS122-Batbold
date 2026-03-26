@@ -12,4 +12,8 @@ public class SearchSystem {
         this.searchType = "";
         this.results = new ArrayList<String>();
     }
+
+    public void start() {
+        System.out.println("Welcome to SearchSystem");
+    }
 }
