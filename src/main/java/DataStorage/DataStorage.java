@@ -75,4 +75,10 @@ public class DataStorage {
     public int getCourseCount() {
         return courseCount;
     }
+
+     public void start() {
+        // Start function 
+        //should guide through what does Student Module do, or help with 
+        System.out.println(">> DataStorage Management Module <<");
+    }
 }
