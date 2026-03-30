@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6f786da-56ec-4846-b7ff-956f4a25c459" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchSystem/SearchSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchSystem/SearchSystem.java" afterDir="false" />
+    <list default="true" id="d6f786da-56ec-4846-b7ff-956f4a25c459" name="Changes" comment="Merge remote-tracking branch 'origin/develop' into rejoy/financialAid&#10;&#10;# Conflicts:&#10;#&#9;.idea/FinalProject-CMPS122.iml&#10;#&#9;.idea/workspace.xml&#10;#&#9;.vscode/settings.json&#10;#&#9;src/main/java/App.java">
+      <change beforePath="$PROJECT_DIR$/src/financialAid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FinancialAid/FinancialAid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +46,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "alp/SearchSystem",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "rejoy/financialAid",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/FinancialAid" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="open FinalProject-CMPS122" />
@@ -72,5 +82,8 @@
       <updated>1773969491428</updated>
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
