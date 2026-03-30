@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6f786da-56ec-4846-b7ff-956f4a25c459" name="Changes" comment="" />
+    <list default="true" id="d6f786da-56ec-4846-b7ff-956f4a25c459" name="Changes" comment="Merge remote-tracking branch 'origin/develop' into rejoy/financialAid&#10;&#10;# Conflicts:&#10;#&#9;.idea/FinalProject-CMPS122.iml&#10;#&#9;.idea/workspace.xml&#10;#&#9;.vscode/settings.json&#10;#&#9;src/main/java/App.java">
+      <change beforePath="$PROJECT_DIR$/src/financialAid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FinancialAid/FinancialAid.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,25 +47,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "develop",
-    "junie.onboarding.icon.badge.shown": "true",
+    "git-widget-placeholder": "rejoy/financialAid",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/haticekula/Desktop/CampusConnect2.0",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/ErrorHandling" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/FinancialAid" />
     </key>
   </component>
   <component name="RunAnythingCache">
