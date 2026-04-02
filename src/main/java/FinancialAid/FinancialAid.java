@@ -82,6 +82,6 @@ public class FinancialAid {
         FinancialAid student = new FinancialAid();
         student.setStudentId("201245");
         student.start();
-        student.applyForAid(3.7, 25000); // Expected Full Scholarship
+        student.applyForAid(3.6, 25000);
     }
 }
