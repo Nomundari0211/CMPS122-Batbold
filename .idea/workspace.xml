@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6f786da-56ec-4846-b7ff-956f4a25c459" name="Changes" comment="Merge remote-tracking branch 'origin/develop' into rejoy/financialAid&#10;&#10;# Conflicts:&#10;#&#9;.idea/FinalProject-CMPS122.iml&#10;#&#9;.idea/workspace.xml&#10;#&#9;.vscode/settings.json&#10;#&#9;src/main/java/App.java">
-      <change beforePath="$PROJECT_DIR$/src/financialAid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FinancialAid/FinancialAid.java" afterDir="false" />
+    <list default="true" id="d6f786da-56ec-4846-b7ff-956f4a25c459" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.ai/mcp/mcp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FinancialAid/FinancialAid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FinancialAid/FinancialAid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +44,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FinancialAid.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "rejoy/financialAid",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rejoy10/Desktop/FinalProject-CMPS122",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -81,9 +90,22 @@
       <option name="presentableId" value="Default" />
       <updated>1773969491428</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix naming of FinancialAid">
+      <option name="closed" value="true" />
+      <created>1774542483350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774542483350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix naming of FinancialAid" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix naming of FinancialAid" />
   </component>
 </project>
