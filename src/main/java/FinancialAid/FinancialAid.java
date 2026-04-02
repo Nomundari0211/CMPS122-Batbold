@@ -22,10 +22,12 @@ public class FinancialAid {
     }
 
     public double getAidAmount() {
+
         return this.aidAmount;
     }
 
     public String getAidType() {
+
         return this.aidType;
     }
 
