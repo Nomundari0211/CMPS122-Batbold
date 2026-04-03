@@ -75,4 +75,10 @@ public class Student {
         System.out.println("GPA: " + gpa);
         System.out.println("Student Status: " + isStudent);
     }
+
+    public void start() {
+        // Start function 
+        //should guide through what does Student Module do, or help with 
+        System.out.println(">> Student Management Module <<");
+    }
 }
