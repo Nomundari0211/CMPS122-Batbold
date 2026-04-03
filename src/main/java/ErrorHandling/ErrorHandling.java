@@ -17,6 +17,12 @@ public class ErrorHandling {
             this.lastError = lastError;
     }
 
+    public ErrorHandling() {
+        this.errorMessage = "Invalid";
+        this.errorCode = 0;
+        this.lastError = "";
+    }
+
     public String getErrorMessage() {
         return this.errorMessage;
     }
