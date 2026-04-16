@@ -37,16 +37,29 @@ public class NotificationSystem {
     }
 
     public void sendNotification() {
-        // logic coming soon
+        inbox.add("[UNREAD] [" + notificationType + "] " + message + " (" + timestamp + ")");
+        System.out.println("Notification sent to " + recipientId + ": " + message);
     }
 
     public int getUnreadCount() {
-        // logic coming soon
-        return 0;
+        int count = 0;
+        for (String msg : inbox) {
+            if (msg.startsWith("[UNREAD]")) {
+                count++;
+            }
+        }
+        return count;
     }
 
     public void displayInbox() {
-        // logic coming soon
+        if (inbox.isEmpty()) {
+            System.out.println("Inbox is empty.");
+        } else {
+            System.out.println("\n==== Inbox for " + recipientId + " ====");
+            for (String msg : inbox) {
+                System.out.println(msg);
+            }
+        }
     }
 
     public void markAsRead() {
@@ -62,5 +75,35 @@ public class NotificationSystem {
         System.out.println("Welcome to the Notification System!");
         System.out.println("Recipient: " + recipientId);
         System.out.println("You have a new " + notificationType + " notification.");
+    }
+
+    public void showMenu() {
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        int choice = -1;
+
+        while (choice != 0) {
+            System.out.println("\n==== Notification System Menu ====");
+            System.out.println("1. Send Notification");
+            System.out.println("2. View Inbox");
+            System.out.println("3. Mark as Read");
+            System.out.println("4. Get Unread Count");
+            System.out.println("0. Return");
+            System.out.print("Enter choice: ");
+
+            try {
+                choice = scanner.nextInt();
+                switch (choice) {
+                    case 1: sendNotification(); break;
+                    case 2: displayInbox(); break;
+                    case 3: markAsRead(); break;
+                    case 4: System.out.println("Unread messages: " + getUnreadCount()); break;
+                    case 0: System.out.println("Returning..."); break;
+                    default: System.out.println("Invalid option! Try again.");
+                }
+            } catch (Exception e) {
+                System.out.println("Please enter a valid number!");
+                scanner.next();
+            }
+        }
     }
 }
