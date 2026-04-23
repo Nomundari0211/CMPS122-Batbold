@@ -8,4 +8,8 @@ public class CourseModule  {
 
     public CourseModule() {
     }
+
+    public void start() {
+        System.out.println("Course Module Started");
+    }
 }

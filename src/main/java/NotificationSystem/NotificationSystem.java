@@ -1,6 +1,7 @@
 // Nomundari Batbold
 package NotificationSystem;
 import java.util.ArrayList;
+import Student.Student;
 
 public class NotificationSystem {
 
@@ -39,6 +40,12 @@ public class NotificationSystem {
     public void sendNotification() {
         inbox.add("[UNREAD] [" + notificationType + "] " + message + " (" + timestamp + ")");
         System.out.println("Notification sent to " + recipientId + ": " + message);
+    }
+
+    public void sendNotificationToStudent(Student student) {
+        String studentName = student.getName();
+        inbox.add("[UNREAD] [" + notificationType + "] " + message + " (" + timestamp + ")");
+        System.out.println("Notification sent to " + studentName + ": " + message);
     }
 
     public int getUnreadCount() {
